@@ -1,0 +1,7 @@
+logging:
+  level: INFO
+  loggers:
+    fenggetest: DEBUG
+
+mongohost:
+  35.197.11.144
