@@ -8,7 +8,6 @@ public class FortuneStore {
     private HashMap<String, String> map1;
     private HashMap<String, Integer> map2;
     private ArrayList<String> index;
-    private Random rand;
 
     public FortuneStore(List<Fortune> fortunes) {
         HashMap<String, String> map1  = new HashMap<>();
@@ -22,7 +21,6 @@ public class FortuneStore {
         this.map1 = map1;
         this.map2 = map2;
         this.index = index;
-        this.rand = new Random();
     }
 
 
