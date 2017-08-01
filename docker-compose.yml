@@ -1,0 +1,9 @@
+version: '2'
+services:
+  mongo:
+    container_name: fortune-mongo
+    image: launcher.gcr.io/google/mongodb3
+    ports:
+      - '27017:27017'
+    volumes:
+      - /my/persistent/dir/mongo:/data/db
